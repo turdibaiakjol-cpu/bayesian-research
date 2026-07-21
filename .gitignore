@@ -1,3 +1,64 @@
-.DS_Store
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Excel temp files
+~$*.xlsx
+~$*.xls
+
+# Large data files (keep CSVs, ignore original Excel)
+*.xlsx
+!data/**/*.csv
+
+# Legacy root-level files (archived in src/legacy/)
+/nowcasting_full_pipeline.py
+/nowcasting_pipeline.py
+/fix_part1.py
+/fix_part2.py
+/fix_round3.py
+/run_fixes.py
+/run_upgrade_steps1to5.py
+/generate_final_manuscripts.py
+/generate_manuscript.py
+/generate_pdf.py
+/generate_word.py
+/generate_complete_word.py
+/round4_tasks1to4.py
+/recompute_lambda.py
+/run_audit.py
+/apply_edits.py
+/data_collection.py
+/evaluation.py
+/models.py
+/transformations.py
+/restructure.py
+/manuscript_*.md
+/manuscript_*.pdf

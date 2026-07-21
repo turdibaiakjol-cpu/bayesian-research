@@ -1,0 +1,20 @@
+Variable,Source,URL,Native_Freq,Aggregation,Notes
+gdp_pvi,BNS / IMF WEO,https://stat.gov.kz,Quarterly,Native,Official quarterly PVI; annual from IMF WEO Apr 2025
+ipi,BNS,https://stat.gov.kz,Monthly,Arithmetic mean,Industrial Production Index YoY %
+stei,BNS,https://stat.gov.kz,Monthly,Arithmetic mean,Short-Term Economic Indicator
+freight,BNS,https://stat.gov.kz,Monthly,Sum (flow),"Freight & cargo turnover, ton-km index"
+construction,BNS,https://stat.gov.kz,Monthly,Sum (flow),Volume of construction works
+trade,BNS,https://stat.gov.kz,Monthly,Sum (flow),Wholesale and retail trade volume
+nbk_rate,National Bank of Kazakhstan,https://nationalbank.kz,Monthly,End-of-quarter,NBK base (policy) rate
+credit,National Bank of Kazakhstan,https://nationalbank.kz,Monthly,End-of-quarter,Credit claims to the rest of economy
+m2,National Bank of Kazakhstan,https://nationalbank.kz,Monthly,End-of-quarter,Broad money supply M2
+wages,BNS,https://stat.gov.kz,Monthly,Arithmetic mean,Average per capita nominal wages
+brent,World Bank Pink Sheet,https://www.worldbank.org/en/research/commodity-markets,Monthly,Arithmetic mean,"Brent crude oil, $/bbl"
+copper,World Bank Pink Sheet / LME,https://www.worldbank.org/en/research/commodity-markets,Monthly,Arithmetic mean,"Copper price, $/mt"
+zinc,World Bank Pink Sheet / LME,https://www.worldbank.org/en/research/commodity-markets,Monthly,Arithmetic mean,"Zinc price, $/mt"
+usdkzt,National Bank of Kazakhstan,https://nationalbank.kz,Monthly,Arithmetic mean,USD/KZT nominal exchange rate
+rubkzt,NBK / Cross-rate,https://nationalbank.kz,Monthly,Arithmetic mean,RUB/KZT computed as cross-rate
+cpi_food,BNS,https://stat.gov.kz,Monthly,End-of-quarter,CPI component: food
+cpi_nonfood,BNS,https://stat.gov.kz,Monthly,End-of-quarter,CPI component: nonfood
+cpi_services,BNS,https://stat.gov.kz,Monthly,End-of-quarter,CPI component: services
+uranium,UxC / World Nuclear Association,https://www.uxc.com/,Monthly,Arithmetic mean,"Uranium spot price U3O8, $/lb"
